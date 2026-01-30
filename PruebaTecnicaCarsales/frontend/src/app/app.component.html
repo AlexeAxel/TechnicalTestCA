@@ -1,0 +1,22 @@
+<header class="header">
+  <div class="container">
+    <h1 class="logo">
+      <span class="logo-rick">Rick</span> & <span class="logo-morty">Morty</span> Explorer
+    </h1>
+    <nav class="nav">
+      <a routerLink="/episodes" routerLinkActive="active" class="nav-link">Episodios</a>
+      <a routerLink="/characters" routerLinkActive="active" class="nav-link">Personajes</a>
+      <a routerLink="/locations" routerLinkActive="active" class="nav-link">Ubicaciones</a>
+    </nav>
+  </div>
+</header>
+
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>Desarrollado con Angular 19 y .NET 8 | Datos de <a href="https://rickandmortyapi.com" target="_blank">Rick and Morty API</a></p>
+  </div>
+</footer>

@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.API/RickAndMorty.API.csproj": {}
+  },
+  "projects": {
+    "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.API/RickAndMorty.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.API/RickAndMorty.API.csproj",
+        "projectName": "RickAndMorty.API",
+        "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.API/RickAndMorty.API.csproj",
+        "packagesPath": "/Users/alexeyaxel/.nuget/packages/",
+        "outputPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexeyaxel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Application/RickAndMorty.Application.csproj": {
+                "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Application/RickAndMorty.Application.csproj"
+              },
+              "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj": {
+                "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Application/RickAndMorty.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Application/RickAndMorty.Application.csproj",
+        "projectName": "RickAndMorty.Application",
+        "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Application/RickAndMorty.Application.csproj",
+        "packagesPath": "/Users/alexeyaxel/.nuget/packages/",
+        "outputPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexeyaxel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/RickAndMorty.Domain.csproj": {
+                "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/RickAndMorty.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/RickAndMorty.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/RickAndMorty.Domain.csproj",
+        "projectName": "RickAndMorty.Domain",
+        "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/RickAndMorty.Domain.csproj",
+        "packagesPath": "/Users/alexeyaxel/.nuget/packages/",
+        "outputPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexeyaxel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj",
+        "projectName": "RickAndMorty.Infrastructure",
+        "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Infrastructure/RickAndMorty.Infrastructure.csproj",
+        "packagesPath": "/Users/alexeyaxel/.nuget/packages/",
+        "outputPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexeyaxel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/RickAndMorty.Domain.csproj": {
+                "projectPath": "/Users/alexeyaxel/Documents/Proyectos/Stockly/TechnicalTestCA/PruebaTecnicaCarsales/backend/src/RickAndMorty.Domain/RickAndMorty.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
